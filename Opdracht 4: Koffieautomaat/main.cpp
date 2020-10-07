@@ -19,4 +19,6 @@ int main() {
 	machine.coinIn(oec);
 	Sleep(2000);
 	machine.coinIn(ct);
+	Sleep(2000);
+	return 0;
 }

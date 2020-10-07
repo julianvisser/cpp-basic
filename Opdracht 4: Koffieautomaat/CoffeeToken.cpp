@@ -1,6 +1,6 @@
-#include "OneEuro.h"
+#include "CoffeeToken.h"
 
-OneEuro::OneEuro() : Coin() {
+CoffeeToken::CoffeeToken() : Coin() {
 	name = "Coffee Token";
 
 }

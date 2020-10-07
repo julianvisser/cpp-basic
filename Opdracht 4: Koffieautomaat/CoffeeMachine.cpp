@@ -6,7 +6,8 @@ CoffeeMachine::CoffeeMachine() {
 }
 
 // In this function I've 'hardcoded' all coffee names and prices.
-// Ideally, if I had more time, I would make classes for each variety of coffee, and compare c.value to a price defined in each of those classes.
+// Ideally, if I had more time, I would make classes for each variety of coffee, 
+// and compare the value of c to a price defined in each of those classes.
 
 void CoffeeMachine::coinIn(Coin c) {
 	std::cout << "You've inserted a " + c.name + " coin." << std::endl;
